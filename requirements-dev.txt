@@ -1,0 +1,9 @@
+-r requirements.txt
+# тесты
+pytest==9.1.1
+httpx==0.28.1
+# линтеры
+black==26.10.1
+isort==9.0.2
+flake8==7.5.0
+mypy==2.4.1

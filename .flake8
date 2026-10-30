@@ -1,0 +1,5 @@
+[flake8]
+max-line-length = 100
+# E203 конфликтует с форматированием black вокруг срезов.
+extend-ignore = E203
+exclude = .git,__pycache__,.venv,venv,.mypy_cache,.pytest_cache
